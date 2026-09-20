@@ -1,0 +1,43 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>Unit Converter</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="Converter">
+        <h1>Unit Converter</h1>
+        <p>Enter value:</p>
+        <input type="text" id="value" placeholder="Enter any number">
+        <p>Convert from:</p>
+        <select id="from">
+            <option value="km">Kilometers</option>
+            <option value="miles">Miles</option>
+            <option value="c">Celsius</option>
+            <option value="f">Fahrenheit</option>
+            <option value="kg">Kilograms</option>
+            <option value= "lb">Pounds</option>
+        </select>
+
+        <p>Convert to:</p>
+        <select id="to">
+            <option value="km">Kilometers</option>
+            <option value="miles">Miles</option>
+            <option value="c">Celsius</option>
+            <option value="f">Fahrenheit</option>
+            <option value="kg">Kilograms</option>
+            <option value="lb">Pounds</option>
+        </select>
+
+        <button onclick="convert()">Convert</button>
+
+        <h2 id="result">Result will appear here</h2>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+body{
+    font-family:Arial;
+    background-color: lavender;
+    text-align: center;
+}
+
+.converter{
+    width: 450px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1{
+    color: drakblue;
+}
+
+input, select{
+    width: 300px;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    box-sizing: border-box;
+}
+
+button{
+    padding: 10px 30px;
+    background-color: darkblue;
+    color: pink;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+.result{
+    color: green;
+}
+
